@@ -30,6 +30,9 @@
 	2.24 Doctop Box
 
 -----------------------------------*/
+
+@import "icons/style.css";
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -7991,13 +7994,13 @@ body.touch .tooltip.show {
 
 .bg-grey {
   padding: 100px 0;
-  background: url("../img/bg-grey.jpg"); }
+  background: url("img/bg-grey.jpg"); }
   @media (max-width: 1023px) {
     .bg-grey {
       padding: 50px 0; } }
 
 .bg-grey-dark {
-  background: url("../img/bg-grey-dark.jpg"); }
+  background: url("img/bg-grey-dark.jpg"); }
 
 .bg-grey-150 {
   background-color: #f7f7f7; }
@@ -11311,7 +11314,7 @@ body.noScroll {
   width: 100%;
   height: 20.8vw; }
   .service-box-greybg {
-    background: url(../img/bg-grey.jpg); }
+    background: url(img/bg-grey.jpg); }
   .service-box-icon {
     font-size: 96px;
     line-height: 1em;
@@ -12146,7 +12149,7 @@ body:not(.touch) .services-tab-wrap .nav-link:hover {
 .banner-full {
   position: relative;
   padding: 40px 0;
-  background: url(../img/banner-bg.jpg) no-repeat 0 bottom; }
+  background: url(img/banner-bg.jpg) no-repeat 0 bottom; }
   .banner-full-text1 {
     font-size: 70px;
     font-family: "Poppins", serif;
@@ -12779,7 +12782,7 @@ body:not(.touch) .faq-wrap .nav-link:hover {
     flex: 0 0 50%;
     max-width: 50%; } }
 .newsletter-card {
-  background: url(../img/newsletter-bg.jpg) repeat right center;
+  background: url(img/newsletter-bg.jpg) repeat right center;
   border-top: 4px solid #1e76bd;
   overflow: hidden;
   padding: 36px 40px 50px;
@@ -13850,7 +13853,7 @@ body:not(.touch) .faq-wrap .nav-link:hover {
         line-height: 20px; } }
 
 .testimonial-bg1 {
-  background: url("../img/bg-grey.jpg");
+  background: url("img/bg-grey.jpg");
   box-shadow: none; }
   .testimonial-bg1:before {
     border-top-color: #f4f4f4;
@@ -14625,7 +14628,7 @@ body:not(.touch) .filters-by-category ul a:hover {
 
 /* slider */
 .slick-loading .slick-list {
-  background: #fff url("../img/ajax-loader.gif") center center no-repeat; }
+  background: #fff url("img/ajax-loader.gif") center center no-repeat; }
 
 .slick-slide {
   max-width: none !important; }
@@ -16653,7 +16656,7 @@ body:not(.touch) .quickLinks.stuck {
 .column-filters {
   margin-bottom: 35px; }
   .column-filters-inside {
-    background: url("../img/bg-grey.jpg") repeat #f7f7f7; }
+    background: url("img/bg-grey.jpg") repeat #f7f7f7; }
   .column-filters .side-block {
     padding: 20px 20px 30px;
     margin-top: 0 !important;
